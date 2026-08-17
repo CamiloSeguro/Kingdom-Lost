@@ -14,7 +14,7 @@
     <div class="noise-overlay"></div>
     <div class="ambient-light light-1"></div>
     <div class="ambient-light light-2"></div>
-    
+
     <nav class="navbar">
         <div class="logo">Kingdom Lost</div>
         <ul class="nav-links">
@@ -31,7 +31,16 @@
             <span class="badge">Game Design Document</span>
             <h1 class="hero-title">Kingdom Lost</h1>
             <p class="hero-tagline">Recupera el poderío del imperio antes de que la oscuridad los extinga.</p>
-            <a href="#play" class="cta-button">Adentrarse en la Oscuridad <i data-lucide="arrow-down"></i></a>
+
+            <a
+                href="https://cuchoapa.itch.io/kingdom-lost?secret=XQg8OSFDq4xVHeaJ484H3LerV30"
+                class="cta-button"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Jugar Kingdom Lost
+                <i data-lucide="external-link"></i>
+            </a>
         </div>
     </header>
 
@@ -39,14 +48,23 @@
         <div class="container text-center">
             <h2 class="section-title">Adéntrate en la Mazmorra</h2>
             <p class="subtitle">Prueba la versión en desarrollo directamente desde tu navegador.</p>
+
             <div class="game-container-wrapper glass-card">
                 <div class="game-frame">
-                    <!-- Cuando el juego esté listo, aquí irá el iframe del build WebGL -->
                     <div class="game-placeholder">
                         <i data-lucide="gamepad-2" class="huge-icon"></i>
-                        <h3>Juego en Desarrollo</h3>
-                        <p>El portal se abrirá pronto...</p>
-                        <div class="loading-bar"><div class="progress"></div></div>
+                        <h3>Kingdom Lost</h3>
+                        <p>La mazmorra te espera.</p>
+
+                        <a
+                            href="https://cuchoapa.itch.io/kingdom-lost?secret=XQg8OSFDq4xVHeaJ484H3LerV30"
+                            class="cta-button"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Jugar ahora
+                            <i data-lucide="external-link"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -61,6 +79,7 @@
                     <p class="lead">Un dungeon crawler en el que eliges a uno de varios exploradores del reino para descender a las profundidades sepultadas.</p>
                     <p>Un action-RPG de dungeons en tercera persona, ambientado en las ruinas de un reino sepultado bajo la montaña. Tu misión es doble: sobrevivir a cada descenso y restaurar el poderío del reino, mientras la dificultad escala a través de enemigos más numerosos y salas cada vez más oscuras y hostiles.</p>
                 </div>
+
                 <div class="mantra-visual">
                     <div class="glass-card visual-card">
                         <i data-lucide="mountain-snow" class="large-icon"></i>
@@ -75,17 +94,20 @@
     <section id="pillars" class="section">
         <div class="container">
             <h2 class="section-title text-center">Pilares de Diseño</h2>
+
             <div class="pillars-grid">
                 <div class="glass-card pillar-card">
                     <div class="icon-wrapper"><i data-lucide="swords"></i></div>
                     <h3>Combate</h3>
                     <p>Cada golpe debe sentirse pesado y satisfactorio, con animaciones, cámara y sonido que transmitan un impacto convincente.</p>
                 </div>
+
                 <div class="glass-card pillar-card">
                     <div class="icon-wrapper"><i data-lucide="eye"></i></div>
                     <h3>Tensión</h3>
                     <p>La iluminación y el sonido generan una sensación de amenaza constante en cada sala de la mazmorra.</p>
                 </div>
+
                 <div class="glass-card pillar-card">
                     <div class="icon-wrapper"><i data-lucide="trending-up"></i></div>
                     <h3>Progresión</h3>
@@ -99,7 +121,7 @@
         <div class="container">
             <h2 class="section-title text-center">Habilidades y Combate</h2>
             <p class="text-center subtitle">El juego incluye enemigos hostiles y combate activo como mecánica central. El personaje tiene una estructura de tres habilidades.</p>
-            
+
             <div class="abilities-grid">
                 <div class="ability-card glass-card">
                     <div class="ability-header">
@@ -111,7 +133,7 @@
                     </div>
                     <p>Combo de 2 golpes con la pala, donde el segundo tiene retroceso.</p>
                 </div>
-                
+
                 <div class="ability-card glass-card">
                     <div class="ability-header">
                         <div class="ability-icon special"><i data-lucide="zap"></i></div>
@@ -141,6 +163,7 @@
         <div class="container features-container">
             <div class="features-content">
                 <h2 class="section-title">Características Clave</h2>
+
                 <ul class="feature-list">
                     <li>
                         <i data-lucide="users"></i>
@@ -149,6 +172,7 @@
                             <p>Antes de cada descenso, el jugador elige un explorador con su propia arma, sensación de combate y habilidades.</p>
                         </div>
                     </li>
+
                     <li>
                         <i data-lucide="gem"></i>
                         <div>
@@ -156,6 +180,7 @@
                             <p>El jugador recolecta minerales y reliquias para forjar mejoras de armas y habilidades.</p>
                         </div>
                     </li>
+
                     <li>
                         <i data-lucide="palette"></i>
                         <div>
@@ -165,22 +190,26 @@
                     </li>
                 </ul>
             </div>
-            
+
             <div class="interface-card glass-card">
                 <h3>Interfaz (HUD)</h3>
+
                 <div class="hud-item">
                     <div class="hud-bar hp-bar"></div>
                     <span>Barra de Vida</span>
                 </div>
+
                 <div class="hud-item">
                     <div class="hud-bar stamina-bar"></div>
                     <span>Barra de Stamina</span>
                 </div>
+
                 <div class="hud-icons">
                     <div class="hud-icon"><i data-lucide="swords"></i></div>
                     <div class="hud-icon special-ready"><i data-lucide="zap"></i></div>
                     <div class="hud-icon"><i data-lucide="shield"></i></div>
                 </div>
+
                 <p class="hud-desc">Teclado y mouse como principales, soporte de control/gamepad.</p>
             </div>
         </div>
@@ -193,5 +222,8 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>
